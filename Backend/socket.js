@@ -8,7 +8,7 @@ function initializeSocket(server) {
 
     io = socketIo(server, {
         cors: {
-            origin: '*',
+            origin: 'https://ridebookingapp.netlify.app/',
             methods: [ 'GET', 'POST' ]
         }
     });

@@ -251,3 +251,4 @@ const MapUpdater = ({ currentPosition, startLat, startLng, endLat, endLng }) => 
 };
 
 export default LiveTrackingMap;
+
